@@ -12,7 +12,8 @@ void ShowHelpWindow(LPCSTR)
 
 #else
 
-#include <HtmlHelp.h>
+// There is no htmlhelp.lib for ARM32 Windows, so we comment this out
+// #include <HtmlHelp.h>
 
 #include "../../../Common/StringConvert.h"
 
@@ -26,7 +27,7 @@ void ShowHelpWindow(LPCSTR topicFile)
   path += kHelpFileName;
   path += topicFile;
   // HWND hwnd = NULL;
-  HtmlHelp(NULL, GetSystemString(fs2us(path)), HH_DISPLAY_TOPIC, 0);
+  // HtmlHelp(NULL, GetSystemString(fs2us(path)), HH_DISPLAY_TOPIC, 0);
 }
 
 #endif

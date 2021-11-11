@@ -6,7 +6,7 @@ CFLAGS = $(CFLAGS) \
 !IFDEF UNDER_CE
 LIBS = $(LIBS) Commctrl.lib
 !ELSE
-LIBS = $(LIBS) htmlhelp.lib comdlg32.lib Mpr.lib Gdi32.lib
+LIBS = $(LIBS) comdlg32.lib Mpr.lib Gdi32.lib
 CFLAGS = $(CFLAGS) -DWIN_LONG_PATH
 !ENDIF
 

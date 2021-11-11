@@ -1,6 +1,8 @@
 # 7zip-rt
 7zip source code slightly modified for running in the Surface RT. Tested only on Windows RT 10.
 
+![7-zip screenshot](DOC/Screenshot.png)
+
 ## Requirements
 
 ### Building

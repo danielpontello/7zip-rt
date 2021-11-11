@@ -63,3 +63,13 @@ nmake NEW_COMPILER=1 MY_STATIC_LINK=1
 ```
 
 ### Binaries
+
+All binaries are written to `CPP\7zip\Bundles`. You can copy the following files to your device:
+
+- 7z.dll
+- 7z.exe (Command-line Utility)
+- 7zFM.exe (GUI)
+- 7zG.exe (Command Line w/ Progress Bar)
+- 7-zip.dll
+
+Pre-build versions of this files can be found in GitHub releases tab.
